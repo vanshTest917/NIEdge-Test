@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/subject-list", "destination": "/subject-list.html" },
+    { "source": "/notes-qp-page", "destination": "/notes-qp-page.html" },
+    { "source": "/MP", "destination": "/MP.html" }
+  ],
+  "redirects": [
+    { "source": "/:path*", "destination": "/subject-list.html", "statusCode": 200 }
+  ]
+}
