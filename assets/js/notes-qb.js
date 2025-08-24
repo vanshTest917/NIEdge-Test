@@ -409,39 +409,39 @@ document.addEventListener('keydown', function(e) {
 });
 
 // Add click handlers for resource navigation
-document.addEventListener('DOMContentLoaded', function() {
-    const resourceCards = document.querySelectorAll('.resource-card');
+// document.addEventListener('DOMContentLoaded', function() {
+//     const resourceCards = document.querySelectorAll('.resource-card');
     
-    resourceCards.forEach(card => {
-        card.addEventListener('click', function() {
-            const resourceType = this.getAttribute('data-resource');
-            const resourceName = this.querySelector('.resource-name').textContent;
+//     resourceCards.forEach(card => {
+//         card.addEventListener('click', function() {
+//             const resourceType = this.getAttribute('data-resource');
+//             const resourceName = this.querySelector('.resource-name').textContent;
             
-            // You can customize these URLs based on your file structure
-            let targetUrl = '';
-            switch(resourceType) {
-                case 'notes':
-                    targetUrl = `notes.html`;
-                    break;
-                case 'question-bank':
-                    targetUrl = `questions.html`;
-                    break;
-                case 'assignments':
-                    targetUrl = `assignments.html`;
-                    break;
-                case 'miscellaneous':
-                    targetUrl = `miscellaneous.html`;
-                    break;
-                default:
-                    targetUrl = '#';
-            }
+//             // You can customize these URLs based on your file structure
+//             let targetUrl = '';
+//             switch(resourceType) {
+//                 case 'notes':
+//                     targetUrl = `notes.html`;
+//                     break;
+//                 case 'question-bank':
+//                     targetUrl = `questions.html`;
+//                     break;
+//                 case 'assignments':
+//                     targetUrl = `assignments.html`;
+//                     break;
+//                 case 'miscellaneous':
+//                     targetUrl = `miscellaneous.html`;
+//                     break;
+//                 default:
+//                     targetUrl = '#';
+//             }
             
-            // Navigate to the resource page
-            if (targetUrl !== '#') {
-                setTimeout(() => {
-                    window.location.href = targetUrl;
-                }, 300);
-            }
-        });
-    });
-});
+//             // Navigate to the resource page
+//             if (targetUrl !== '#') {
+//                 setTimeout(() => {
+//                     window.location.href = targetUrl;
+//                 }, 300);
+//             }
+//         });
+//     });
+// });
