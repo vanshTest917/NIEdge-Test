@@ -84,12 +84,27 @@ function initResourceCardAnimations() {
             createRippleEffect(this);
             
             // Log resource access (replace with actual navigation logic)
-            setTimeout(() => {
-                console.log(`Accessing ${resourceName} resources...`);
-                // Here you can add actual navigation logic
-                // window.location.href = `resources.html?type=${encodeURIComponent(resourceName)}`;
-            }, 300);
+            // setTimeout(() => {
+            //     console.log(`Accessing ${resourceName} resources...`);
+            //     // Here you can add actual navigation logic
+            //     window.location.href = `resources.html?type=${encodeURIComponent(resourceName)}`;
+            // }, 300);
         });
+
+//         function goToResource(resourceName, subject) {
+//     setTimeout(() => {
+//         console.log(`Accessing ${resourceName} for ${subject}...`);
+
+//         if (resourceName === "Notes") {
+//             // Go to module page of that subject
+//             window.location.href = `/mp-${subject}.html`;
+//         } else {
+//             // For QB, Assignments, Others → send to work-in-progress
+//             window.location.href = "/work-in-progress.html";
+//         }
+//     }, 300);
+// }
+
         
         // Keyboard accessibility
         card.addEventListener('keydown', function(e) {
