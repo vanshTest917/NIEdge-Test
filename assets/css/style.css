@@ -2005,3 +2005,11 @@ html, body {
 .feature:hover, .doc:hover, .skill-icon:hover {
     cursor: default;
 }
+
+.navhelp:hover {
+    cursor: help;
+}
+
+.stats:hover {
+    cursor:default;
+}

@@ -1010,3 +1010,7 @@ html, body {
     text-decoration: none;
     color: inherit;
 }
+
+.navhelp {
+    cursor: help;
+}

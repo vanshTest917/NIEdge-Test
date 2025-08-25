@@ -998,3 +998,7 @@ footer::before {
 a {
     text-decoration: none;
 }
+
+.navhelp {
+    cursor: help;
+}

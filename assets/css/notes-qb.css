@@ -810,3 +810,7 @@ html, body {
   color: inherit;        /* keeps text color same */
   display: block;        /* makes it behave like a block */
 }
+
+.navhelp {
+    cursor: help;
+}

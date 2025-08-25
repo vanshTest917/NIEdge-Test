@@ -829,6 +829,9 @@ html, body {
         justify-content: center;
     }
 
+.navhelp {
+    cursor: help;
+}
 
 /* @media (max-width: 480px) {
     .container {
